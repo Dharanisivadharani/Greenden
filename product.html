@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link href="
+    https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css
+    " rel="stylesheet">
+</head>
+<body>
+    <nav class="bg-green-100 p-3 flex justify-between shadow-xl sticky z-20 top-0 hover:transform" style="height: 50px; " >
+        <h1 class="text-2xl">Greenden</h1>
+        <svg id="menuicon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="size-6 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+
+        <ul class="flex gap-5 text-gray-600  hidden md:flex">
+            <li>
+                <a class="hover:underline hover:text-black" href="index.html">Home</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="product.html">Product</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="contact.html">contact</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- side nav bar -->
+    <div id="sidenav" class="bg-green-100 fixed z-20 top-0 transition-all duration-1000 shadow-xl " style="width: 50%; height: 100vh; right:-50%">
+        <div class="text-right p-5">
+            <p id="closeicon"class="inline cursor-pointer">X</p>
+        </div>
+        <ul class="flex flex-col  gap-10  items-center text-gray-600">
+            <li>
+                <a class="hover:underline hover:text-black" href="index.html">Home</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="product.html">Product</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="contact.html">contect</a>
+            </li>
+        </ul>
+    </div>
+    <section>
+        <h1 class="text-center text-3xl font-bold mt-3">Our Products</h1>
+        <input id="search" type="text" placeholder="search for a product..." class="border border-black p-2 m-5 items-center " style="width: 80%; margin-left: 10%;">
+        <div id="productcontainer" class=" ml-10 grid grid-cols-2 md:grid-cols-4 ">
+            <div>
+                <img class="w-52 h-56 rounded-lg mt-5 cursor-pointer shadow-xl transform hover:-translate-y-2" src="./image1.png">
+                <p class="md:text-left ml-12">Rose plant</p>
+                <h6 class="md:text-left ml-16">$49.00</h6>
+            </div>
+            <div>
+                <img class="w-52 h-56 rounded-lg mt-5 cursor-pointer shadow-xl transform hover:-translate-y-2" src="./image2.jpeg">
+                <p class="md:text-left ml-14">lilly plant</p>
+                <h6 class="md:text-left ml-16">$70.00</h6>
+            </div>
+            <div>
+                <img class="w-52 h-56 rounded-lg mt-5 cursor-pointer shadow-xl transform hover:-translate-y-2" src="./image3.jpeg">
+                <p class="md:text-left ml-14">Hybiscus plant</p>
+                <h6 class="md:text-left ml-16">$100.00</h6>
+            </div>
+            <div>
+                <img class="w-52 h-56 rounded-lg mt-5 cursor-pointer shadow-xl transform hover:-translate-y-2" src="./image4.jpeg">
+                <p class="md:text-left ml-8">sunflower plant</p>
+                <h6 class="md:text-left ml-16">$80.00</h6>
+            </div>  
+            <div>
+                <img class="w-52 h-56 rounded-lg mt-5 cursor-pointer shadow-xl transform hover:-translate-y-2" src="./image1.png">
+                <p class="md:text-left ml-14">Jasmine</p>
+                <h6 class="md:text-left ml-16">$49.00</h6>
+            </div>
+            <div>
+                <img class="w-52 h-56 rounded-lg mt-5 cursor-pointer shadow-xl transform hover:-translate-y-2" src="./image2.jpeg">
+                <p class="md:text-left ml-14">Aloe vera</p>
+                <h6 class="md:text-left ml-16">$70.00</h6>
+            </div>
+            <div>
+                <img class="w-52 h-56 rounded-lg mt-5 cursor-pointer shadow-xl transform hover:-translate-y-2" src="./image3.jpeg">
+                <p class="md:text-left ml-12">Blue bell plant</p>
+                <h6 class="md:text-left ml-16">$100.00</h6>
+            </div>
+            <div>
+                <img class="w-52 h-56 rounded-lg mt-5 cursor-pointer shadow-xl transform hover:-translate-y-2" src="./image4.jpeg">
+                <p class="md:text-left ml-12">Mari gold</p>
+                <h6 class="md:text-left ml-16">$80.00</h6>
+            </div>
+            <div>
+                <img class="w-52 h-56 rounded-lg mt-5 cursor-pointer shadow-xl transform hover:-translate-y-2" src="./image2.jpeg">
+                <p class="md:text-left ml-14">lotus plant</p>
+                <h6 class="md:text-left ml-16">$70.00</h6>
+            </div>
+            <div>
+                <img class="w-52 h-56 rounded-lg mt-5 cursor-pointer shadow-xl transform hover:-translate-y-2" src="./image1.png">
+                <p class="md:text-left ml-12">Lilac plant</p>
+                <h6 class="md:text-left ml-16">$49.00</h6>
+            </div>
+             <div>
+                <img class="w-52 h-56 rounded-lg mt-5 cursor-pointer shadow-xl transform hover:-translate-y-2" src="./image2.jpeg">
+                <p class="md:text-left ml-14">Daisy plant</p>
+                <h6 class="md:text-left ml-16">$70.00</h6>
+            </div>
+            <div>
+                <img class="w-52 h-56 rounded-lg mt-5 cursor-pointer shadow-xl transform hover:-translate-y-2" src="./image4.jpeg">
+                <p class="md:text-left ml-10">Tulip plant</p>
+                <h6 class="md:text-left ml-16">$80.00</h6>
+            </div>  
+        </div>
+        <section class="bg-green-100 mt-5 h-52 p-10">
+            <h1 class="text-4xl font-bold ">Greenden</h1><br>
+            <p>The Standard chunk of Lorem ipsum used since the 1500s is reprodused below for those interest</p><br>
+            <h6>@ 2021 Greenday.com</h6>
+        </section>
+
+    </section>
+    <script src="product.js"></script>
+</body>
+</html>
